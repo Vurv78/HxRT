@@ -3,6 +3,6 @@ Raytracer in Haxe. Heavily based on [RaytracingInOneWeekend](https://raytracing.
 
 ## Supported Targets
 1. C++
-2. StarfallEx Lua (Using SFHaxe)
+2. ~~StarfallEx Lua (Using SFHaxe)~~ (Has been stripped out but some aspects remain)
 
 Other targets like C#/JVM/Hashlink probably *would* work too but I haven't tested them & I ended up using a lot of ``#if cpp`` rather than ``#if !lua`` in the code.
