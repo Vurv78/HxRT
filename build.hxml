@@ -1,0 +1,23 @@
+# Build.hxml
+
+# Libraries
+--library vector-math
+--library safety
+--library compiletime
+
+# <--Comment if you're debugging
+--define no_traces
+--define no_debug
+# -->
+
+#--define usenormals
+--times
+--dce full
+--class-path src
+--main Tracer
+
+--each
+# Everything before the each will apply to all targets
+
+# Target C++
+--cpp bin/cpp

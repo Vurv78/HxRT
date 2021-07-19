@@ -1,0 +1,7 @@
+{
+	"width": 1920,
+	"height": 1080,
+	"out": "out.ppm",
+	"spp": 4,
+	"depth": 20
+}
